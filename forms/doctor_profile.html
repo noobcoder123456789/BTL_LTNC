@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>The Element Object</h1>
+<h2>The appendChild() Method</h2>
+
+
+
+<div id="MASADTHU">
+	<ul id="myList">
+	<li>1</li>
+    <li>2</li>
+</ul>
+</div>
+
+<button onclick="myFunction()">Append</button>
+
+<script>
+function myFunction() {
+  const MASADTHU = document.querySelector("#MASADTHU");
+  const newNode = document.createElement("ul");
+  newNode.innerHTML = `<li>1</li>
+      <li>2</li>`;
+      MASADTHU.appendChild(newNode);
+}
+</script>
+
+</body>
+</html>
